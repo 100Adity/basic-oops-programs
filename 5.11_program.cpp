@@ -19,10 +19,10 @@ class matrix
 		void display(void)
 		{
 			int i,j;
-			for{i=0;i<3;i++}
+			for(i=0;i<3;i++)
 			{
 				cout<<"\n";
-				for{j=0;j<3;j++}
+				for(j=0;j<3;j++)
 				{
 					cout<<m[i] [j]<<"\t";
 				}
@@ -45,7 +45,7 @@ int main()
 	matrix mat1,mat2;
 	mat1.read();
 	cout<<"\nyou entered the following matrix:";
-	mat1.display()
+	mat1.display();0
 	
 
 //	mat2 = trans(mat1);
